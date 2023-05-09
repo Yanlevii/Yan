@@ -1,0 +1,9 @@
+@charset "UTF-8";
+main{background-color: aqua;}
+h1{
+    margin: auto;
+    width:300px;
+}
+img{
+     overflow: hidden;
+}
