@@ -41,6 +41,10 @@ div:hover > ul{
 .imagens {
     background-color: black;
 }
+.links{
+    color: white;
+    text-justify: auto;
+}
 h2{
     color:#57C5B6
 }
