@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.corpo{
+    width:400px;
+    margin:auto;
+    padding: 10px;
+    border: solid #D95F69;
+    border-radius: 10px;
+    background-color: #CF1721;
+}
+button{
+    border:0;
+    border-radius: 3px;
+    padding-bottom: 2px;
+    margin:3px;
+    color: #000000;
+    background-color: #ffffffc2;
+}
+button:hover{
+    border:0;
+    border-radius: 3px;
+    padding-bottom:3px;
+    margin:5px;
+    color: #fff;
+    background-color: #D95F69;
+    
+}
+h1{
+    text-align:center ;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.foto{
+    padding-left: 25%;
+}
