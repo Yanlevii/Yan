@@ -11,29 +11,31 @@ main{
     margin: auto;
     background-color: #f1f1f1;
     display: flex;
-    margin: 30px 30px 30px 30px;
+    margin: 2% 11% 2% 10%;
     padding:30px 30px 30px 30px ;
+    width: 70%;
 }
 .esquerda{
     width: 50%;
     float: left;
     margin-top: 90px;
+    
 }
 .esquerda h1{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
     font-weight: normal;
 }
 .esquerda p{
     padding-bottom: 5px;
     font-size: 0.9em;
 }
-img{
+.icon{
     width: 25px;
     padding-right: 8px;
     padding-top: 20px;
 }
 .direita{
-    width: 50%;
+    width: 60%;
     float: left;
     margin-top: 50px;
 }
@@ -42,13 +44,14 @@ img{
     font-weight: normal;
 }
 .direita input{
-    padding-right: 250px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+    padding-right: 40%;
+    padding-top: 1%;
+    padding-left:1%;
+    padding-bottom: 1%;
     border: 1px solid rgba(0, 0, 0, 0.397);
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 30%;
 }
 button{
     border: 0px solid rgba(0, 0, 0, 0.397);
