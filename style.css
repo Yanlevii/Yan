@@ -33,7 +33,7 @@ div:hover{
     color:green;
 }
 div > ul{
-    display:none
+    display:none;
 }
 div:hover > ul{
     display:block;
