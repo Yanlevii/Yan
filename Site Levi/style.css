@@ -8,7 +8,8 @@
     --cor02:#37668C;
     --cor03:#3756A3;
     --cor04:#343699;
-    
+    --corfundo:#f1f1f1;
+
     --font-robo:'Roboto', sans-serif;
     --font-destaque:'Teko', sans-serif;
     --font-titulo:'Libre Baskerville', serif;
@@ -17,7 +18,7 @@
     margin: 0px;
 }
 body{
-    background-color:white;
+    background-color:var(--corfundo);
 }
 header{
     background-color: var(--cor02);
