@@ -63,6 +63,7 @@ main h2{
     margin-bottom: 20px;
     border: 0.5px solid rgba(0, 0, 0, 0.185);
     border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
 }
 div.topico1 > p{
     display: none;
@@ -143,7 +144,7 @@ div.cidades:hover > ul{
     padding-top: 20px;
 }
 .direita2{
-    width: 60%;
+    width: 50%;
     float: left;
     margin-top: 50px;
     padding-left: 100px;
@@ -153,14 +154,14 @@ div.cidades:hover > ul{
     font-weight: normal;
 }
 .direita2 input{
-    padding-right: 50%;
+    padding-right: 15%;
     padding-top: 1%;
     padding-left:1%;
     padding-bottom: 1%;
     border: 1px solid rgba(0, 0, 0, 0.397);
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 30%;
+    width: 100%;
 }
 button.enviar{
     border: 0px solid rgba(0, 0, 0, 0.397);
