@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 :root{
     --cor00:#378FA3;
-    --cor01:#349991;
+    --cor01:#80ddd5;
     --cor02:#37668C;
     --cor03:#3756A3;
     --cor04:#343699;
-    --corfundo:#f1f1f1;
+    --cor-fundo:#f1f1f1;
 
     --font-robo:'Roboto', sans-serif;
     --font-destaque:'Teko', sans-serif;
@@ -47,22 +47,61 @@ header img{
     width: 300px;
 }
 main{
-    width: 800px;
+    width: 70%;
     margin: auto;
     background-color: white;
     padding: 20px;
 }
+#descricaotp{
+    text-align: center;
+}
 main h2{
     font-family: var(--font-robo);
+    text-align: center;
+    background-color: var(--cor01);
+    padding:4px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.185);
+    border-radius: 2px;
+}
+div.topico1 > p{
+    display: none;
+}
+div.topico1:hover > p{
+    display: block;
+}
+div.topico2 > p{
+    display: none;
+}
+div.topico2:hover > p{
+    display: block;
+}
+div.topico3 > p{
+    display: none;
+}
+div.topico3:hover > p{
+    display: block;
+}
+div.topico4 > p{
+    display: none;
+}
+div.topico4:hover > p{
+    display: block;
+}
+div.topico5 > p{
+    display: none;
+}
+div.topico5:hover > p{
+    display: block;
 }
 main p{
     font-family: "Source Sans Pro", sans-serif;
     text-align: justify;
     padding-top: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 div.cidades{
-    background-color: var(--cor00);
+    background-color: var(--cor-fundo);
     border-radius: 10px;
     padding: 4px;
 }
@@ -76,8 +115,68 @@ div.cidades > ul{
 div.cidades:hover > ul{
     display: block;
 }
+.contato{
+    margin: auto;
+    background-color: var(--cor-fundo);
+    display: flex;
+    padding:30px 80px 30px 30px ;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+}
+.esquerda2{
+    width: 50%;
+    float: left;   
+    margin-top: 90px;
+}
+.esquerda2 h1{
+    padding-bottom: 3%;
+    font-weight: normal;
+}
+.esquerda p{
+    padding-bottom: 5px;
+    font-size: 0.9em;
+}
+.icon{
+    width: 25px;
+    padding-right: 8px;
+    padding-top: 20px;
+}
+.direita2{
+    width: 60%;
+    float: left;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.direita2 p{
+    padding-bottom: 15px;
+    font-weight: normal;
+}
+.direita2 input{
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-left:1%;
+    padding-bottom: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+button.enviar{
+    border: 0px solid rgba(0, 0, 0, 0.397);
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    background-color: #e6b869;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.enviar:hover{
+    background-color: #e6b86991;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
 footer{
-    background-color: var(--cor04);
+    background-color: var(--cor-fundo);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
 }
 footer p{
     text-align: center;
