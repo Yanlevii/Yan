@@ -100,6 +100,8 @@ main p{
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 10px;
+    line-height: 1.5em;/*espaçamento entre linhas*/
+
 }
 div.cidades{
     background-color: var(--cor-fundo);
