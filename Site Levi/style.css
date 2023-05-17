@@ -67,30 +67,35 @@ main h2{
 }
 div.topico1 > p{
     display: none;
+    text-indent: 8px;
 }
 div.topico1:hover > p{
     display: block;
 }
 div.topico2 > p{
     display: none;
+    text-indent: 8px;
 }
 div.topico2:hover > p{
     display: block;
 }
 div.topico3 > p{
     display: none;
+    text-indent: 8px;
 }
 div.topico3:hover > p{
     display: block;
 }
 div.topico4 > p{
     display: none;
+    text-indent: 8px;
 }
 div.topico4:hover > p{
     display: block;
 }
 div.topico5 > p{
     display: none;
+    text-indent: 8px;
 }
 div.topico5:hover > p{
     display: block;
