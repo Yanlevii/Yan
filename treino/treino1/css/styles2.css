@@ -3,6 +3,9 @@
 .logo-ll {
     height: 50px;
 }
+.container{
+    min-width: 320px;
+}
 .bloco1{
    width: 59%;
 }
@@ -24,6 +27,11 @@
 .colunaimg2{
     padding-left: 0%;
     padding-right: 0%;
+}
+.telacel{
+    width: 50%;
+    min-width: 320px;
+    margin: auto;
 }
 .descricao{
     text-align: justify;
