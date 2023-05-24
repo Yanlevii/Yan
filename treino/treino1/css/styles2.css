@@ -2,17 +2,20 @@
 
 .logo-ll {
     height: 50px;
-  }
-.primacasa{
-    width: 325px;
+}
+.bloco1{
+   width: 59%;
+}
+.primacasabloco{
+    width: 440px;
+    
 }
 .imagem1{
-    width: 300px;
+    width: 100%;
     background-color: black;
-    padding: 0%;
 }
 .casasecund{
-    width:300px;
+    width:440px;
 }
 .secundimg{
     width: 100%;
@@ -21,4 +24,10 @@
 .colunaimg2{
     padding-left: 0%;
     padding-right: 0%;
+}
+.descricao{
+    text-align: justify;
+}
+.icones{
+    width: 25px;
 }
